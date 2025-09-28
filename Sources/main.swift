@@ -6,10 +6,9 @@ import FoundationModels
 struct Chat: AsyncParsableCommand {
     mutating func run() async throws {
         let session = LanguageModelSession(instructions: """
-            You are a motivational workout coach that provides quotes to inspire \
-            and motivate athletes.
+            あなたは、アスリートにインスピレーションを与え、やる気を起こさせるための引用を提供する、やる気を起こさせるワークアウトコーチです。
             """)
-        let prompt = "Generate a motivational quote for my next workout."
+        let prompt = "次のワークアウトの動機付けのメッセージを生成します。"
         let response = try await session.respond(to: prompt)
         print(response.content)
     }
