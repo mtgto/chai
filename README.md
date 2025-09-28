@@ -1,7 +1,7 @@
 chai
 ====
 
-An AI chat software using the Apple's FoundationModels framework for macOS.
+An AI chat software using the [Apple's FoundationModels framework](https://developer.apple.com/documentation/foundationmodels) for macOS 26+.
 This is made to touch the FoundationModels framework and is not suitable for use as a product.
 
 # Usage
@@ -44,6 +44,13 @@ Chai based on Apple Intelligence. Please enter your request.
 > 今日の天気ってわかる?
 申し訳ありませんが、リアルタイムの天気情報は提供できません。最新の天気情報は信頼できる天気予報アプリやウェブサイトで確認することをお勧めします。
 ```
+
+# References
+
+- https://developer.apple.com/jp/videos/play/wwdc2025/248/
+- https://developer.apple.com/documentation/foundationmodels
+    - https://developer.apple.com/documentation/foundationmodels/generating-content-and-performing-tasks-with-foundation-models
+    - https://developer.apple.com/documentation/foundationmodels/support-languages-and-locales-with-foundation-models
 
 # License
 
